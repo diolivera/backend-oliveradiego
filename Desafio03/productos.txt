@@ -1,0 +1,1 @@
+[{"title":"Camisetas","price":15000,"thumbnail":"https://www.mercadolibre.com.ar/","id":1},{"title":"Shorts","price":10000,"thumbnail":"https://www.mercadolibre.com.ar/","id":2},{"title":"Botines","price":20000,"thumbnail":"https://www.mercadolibre.com.ar/","id":3}]
