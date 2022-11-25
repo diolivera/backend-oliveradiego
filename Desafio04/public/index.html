@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Desafio 04</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="m-5 text-center">DESAFIO 04</h1>
+        <form action="/api/productos" method="post">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Lapiz" name="title">
+                <label for="floatingInput">Title</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingPassword" placeholder="500" name="price">
+                <label for="floatingPassword">Price</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingPassword" placeholder="google.com" name="thumbnail">
+                <label for="floatingPassword">Thumbnail</label>
+            </div>
+            <button type="button" class="btn btn-primary">ENVIAR</button>
+        </form>
+    </div>
+</body>
+
+</html>
